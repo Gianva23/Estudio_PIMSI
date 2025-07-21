@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url('..\..\assets\fonts\Poppins\Poppins-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('..\..\assets\fonts\Montserrat\Montserrat-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('..\..\assets\fonts\Montserrat\Montserrat-Regular.ttf') format('truetype');
+}
+.container-services{
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #D9D9D9;
+}
+.Services-title{
+    font-family: 'Montserrat-Bold';
+    font-size: 1.5rem;  /* 24px */
+    line-height: 1.5rem;  /* 24px */
+    /*line-height: 3.25rem;  /* 74px */
+    color: #000000;
+    margin: 82px 0 0 0;
+}
+.Services-title2{
+    font-family: 'Poppins-Bold';
+    font-size: 3rem;  /* 48px */
+    line-height: 4.625rem;  /* 74px */
+    color: #0404E2;
+    margin: 0px;
+}
+.container-cards{
+    display: flex;
+    gap: 21px;
+    margin: 54px 0px 100px;
+}
+@media (max-width: 1300px) {
+    .container-cards {
+        flex-direction: column;
+    }
+}
+.card-inner-front{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.img-card{
+    flex: 78%;
+    width: 100%;
+    border-radius: 25px;
+}
+.title-card-inner{
+    flex: 22%;
+    font-family: 'Montserrat-Bold';
+    font-size: 1.5rem;  /* 24px */
+    line-height: 4.625rem;  /* 74px */
+    color: #0404E2;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-inner-back{
+    font-family: 'Montserrat-Regular';
+    font-size: 1.125rem;  /* 18px */
+    line-height: 1rem;  /* 16px */
+    color: #030347;
+    margin: 0px;
+    max-width: 349px;
+}

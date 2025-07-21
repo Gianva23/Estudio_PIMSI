@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url('..\..\assets\fonts\Poppins\Poppins-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('..\..\assets\fonts\Montserrat\Montserrat-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('..\..\assets\fonts\Montserrat\Montserrat-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat-Italic';
+    src: url('..\..\assets\fonts\Montserrat\Montserrat-Italic.ttf') format('truetype');
+}
+.About-container{
+    width: 100%;
+    background-color: #D9D9D9;
+    display: grid;
+    align-items:flex-start;
+}
+.About-container-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 42.98vw;
+    padding: 6.52vw 5.5% 0 ;
+    margin-right: 5.5%;
+    gap: clamp(0, 7%, 100px);
+
+}
+.About-Titulo1{
+    font-family: 'Montserrat-Bold';
+    font-size: 1.5rem;  /* 24px */
+    line-height: 1.5rem;
+    /*line-height: 3.25rem;   /* 52px */
+    color: #000000;
+    margin: 0px;
+}
+.About-Titulo2{
+    font-family: 'Poppins-Bold';
+    font-size: 3rem;  /* 48px */
+    line-height: 4.625rem;   /* 74px */
+    color: #0404E2;
+    margin: 0px;
+}
+.About-Texto{
+    font-family: 'Montserrat-Regular';
+    font-size: 1.125rem;  /* 18px */
+    line-height: 1.5rem;   /* 24px */
+    color: #000000;
+    width: 548px;
+    margin: 0px;
+    margin-top: 29px;
+}
+.img-about{
+    height: 100%;
+    aspect-ratio: 630 / 619;
+    border-radius: 20px;
+    z-index: 1;
+    position: relative;
+}
+
+/*-------------------------- INFO --------------------------*/
+
+.img-detalle{
+    height: 100%;
+    position: relative;
+    display: block;
+    overflow: visible;
+}
+.About-container-personas{
+    height: 89px;
+    display: flex;
+    justify-content: space-between;
+    padding: 106px 5.55% 84px;
+}
+.About-nos{
+    display: flex;
+    gap: 2.43vw;
+}
+.img-nos{
+    height: 100%;
+    aspect-ratio: 91 / 89;
+    border-radius: 21px;
+}
+.About-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.About-nombre{
+    font-family: 'Montserrat-Bold';
+    font-size: 1.125rem;  /* 18px */
+    line-height: 1.5rem;   /* 24px */
+    color: #000000;
+    margin: 0px;
+}
+.About-titulo{
+    font-family: 'Montserrat-Italic';
+    font-size: 1.125rem;  /* 18px */
+    line-height: 1.5rem;   /* 24px */
+    color: #000000;
+    margin: 0px;
+}
+
+/*------------------------ PARALELOGRAMOS -------------------------*/
+
+.paralelogramo1 {
+    position: absolute;
+    top: -15.18%;   /* 94px de 619 */
+    left: 3.17%;    /* 20px de 630px*/
+    width: 13.33vw; /* 192px */
+    height: 9.23vw; /* 133px */
+    background-color: #0404E2;
+    clip-path: polygon(0 0, 80% 0, 100% 100%, 20% 100%);
+    z-index: 0;
+}
+.paralelogramo2 {
+    position: absolute;
+    top: -15.18%;   /* 94px de 619 */
+    left: 33.65%;    /* 942px de 630px */
+    width: 13.33vw; /* 192px */
+    height: 9.23vw; /* 133px */
+    background-color: #0404E2;
+    clip-path: polygon(0 0, 80% 0, 100% 100%, 20% 100%);
+    z-index: 2;
+}
+.paralelogramo3 {
+    position: absolute;
+    top: -15.18%;   /* 94px de 619 */
+    left: 64.12%;   /* 1134px de 630px */
+    width: 13.33vw; /* 192px */
+    height: 9.23vw; /* 133px */
+    background-color: #0404E2;
+    clip-path: polygon(0 0, 80% 0, 100% 100%, 20% 100%);
+    z-index: 0;
+}
