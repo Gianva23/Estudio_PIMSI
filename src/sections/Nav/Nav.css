@@ -9,6 +9,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: #030347;
 }
 .nav_logo{
     display: flex;
@@ -22,7 +23,6 @@
     align-items: center;
     margin: 0;
     padding: 0;
-    color: #030347;
     gap: 2.5rem;    /* 40px */
 }
 .nav_componentes{
@@ -54,12 +54,10 @@
     display: flex;
     gap: 5px;
     align-items: center;
-    color: #030347;
 }
-a:visited,
-a:hover,
-a:active,
-a:focus {
-    text-decoration: none;
-    color: inherit;
+.nav_iconos a:visited,
+.nav_iconos a:hover,
+.nav_iconos a:active,
+.nav_iconos a:focus{
+    color: #030347;
 }

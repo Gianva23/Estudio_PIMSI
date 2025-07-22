@@ -17,7 +17,7 @@ Tiene navegacion por la web, y redireccion a link como whatsapp, envio de mail, 
 Instalacion:
 -Clonar el reopositorio (https://github.com/Gianva23/Estudio_PIMSI.git)
 -Instalar dependencias (npm install)
--Correr la app (npm run dev)
+-Correr la app (npm start)
 
 
 Autor: Gianluca Vanella
