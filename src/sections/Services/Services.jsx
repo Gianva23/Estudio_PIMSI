@@ -1,5 +1,5 @@
 import './Services.css'
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Card from '../../components/Card/Card'
 import wind_farms_fields from '../../assets/images/wind_farms_fields.png';
 import employees_working_warehouse from '../../assets/images/employees_working_warehouse.png';
@@ -7,6 +7,16 @@ import imagen_home from '../../assets/images/imagen_home.png';
 import imagencard4 from '../../assets/images/imagen.jpg';
 
 function Services() {
+
+    useEffect(() => {
+        const handleResize = () => {
+            window.scrollBy(0, 1);
+            window.scrollBy(0, -1);
+        };
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
+
     return (
         <div className="container-services">
             <p className='Services-title'>NUESTROS SERVICIOS</p>
