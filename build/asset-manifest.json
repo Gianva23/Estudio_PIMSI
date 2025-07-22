@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Estudio_PIMSI/static/css/main.fa86f8bf.css",
-    "main.js": "/Estudio_PIMSI/static/js/main.3fa7a378.js",
+    "main.css": "/Estudio_PIMSI/static/css/main.59c6d313.css",
+    "main.js": "/Estudio_PIMSI/static/js/main.c4e4c915.js",
     "static/media/imagen.jpg": "/Estudio_PIMSI/static/media/imagen.1ed40cba0cecdac417d6.jpg",
     "static/media/Group_10.png": "/Estudio_PIMSI/static/media/Group_10.a247bcb3ab0269e15b0e.png",
     "static/media/Group_18.png": "/Estudio_PIMSI/static/media/Group_18.80bc6490f0c2b397c8e3.png",
@@ -16,11 +16,11 @@
     "static/media/Poppins-Bold.ttf": "/Estudio_PIMSI/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
     "static/media/Logo-EVL.svg": "/Estudio_PIMSI/static/media/Logo-EVL.85b8e339e2f80ff8d9e9ab805692c56d.svg",
     "index.html": "/Estudio_PIMSI/index.html",
-    "main.fa86f8bf.css.map": "/Estudio_PIMSI/static/css/main.fa86f8bf.css.map",
-    "main.3fa7a378.js.map": "/Estudio_PIMSI/static/js/main.3fa7a378.js.map"
+    "main.59c6d313.css.map": "/Estudio_PIMSI/static/css/main.59c6d313.css.map",
+    "main.c4e4c915.js.map": "/Estudio_PIMSI/static/js/main.c4e4c915.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa86f8bf.css",
-    "static/js/main.3fa7a378.js"
+    "static/css/main.59c6d313.css",
+    "static/js/main.c4e4c915.js"
   ]
 }
