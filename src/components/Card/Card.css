@@ -4,6 +4,8 @@
     height: 481px;
     perspective: 1000px;
     cursor: pointer;
+    will-change: transform;
+    overflow: visible;
 }
 .flip-card-inner {
     position: relative;

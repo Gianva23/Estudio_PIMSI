@@ -7,14 +7,14 @@ import imagen_home from '../../assets/images/imagen_home.png';
 import imagencard4 from '../../assets/images/imagen.jpg';
 
 function Services() {
+    const [tick, setTick] = useState(0);
 
     useEffect(() => {
-        const handleResize = () => {
-            window.scrollBy(0, 1);
-            window.scrollBy(0, -1);
+        const forceRender = () => setTick(prev => prev + 1);
+        window.addEventListener('resize', forceRender);
+        return () => {
+            window.removeEventListener('resize', forceRender);
         };
-        window.addEventListener("resize", handleResize);
-        return () => window.removeEventListener("resize", handleResize);
     }, []);
 
     return (
@@ -22,7 +22,7 @@ function Services() {
             <p className='Services-title'>NUESTROS SERVICIOS</p>
             <p className='Services-title2'>Te brindamos la mejor solución</p>
             <div className='container-cards'>
-                <Card 
+                <Card key={`${1}-${tick}`}
                     frontContent={
                         <div className='card-inner-front'>
                             <img src={wind_farms_fields} alt="Gestion-Ambiental" className="img-card"/>
@@ -40,7 +40,7 @@ function Services() {
                         </div>
                     } 
                 />
-                <Card 
+                <Card key={`${2}-${tick}`}
                     frontContent={
                         <div className='card-inner-front'>
                             <img src={employees_working_warehouse} alt="Gestion-Ambiental" className="img-card"/>
@@ -59,7 +59,7 @@ function Services() {
                         </div>
                     }
                 />
-                <Card 
+                <Card key={`${3}-${tick}`}
                     frontContent={
                         <div className='card-inner-front'>
                             <img src={imagen_home} alt="Gestion-Ambiental" className="img-card"/>
