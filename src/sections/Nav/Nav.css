@@ -55,9 +55,14 @@
     gap: 5px;
     align-items: center;
 }
+.nav_iconos a i,
+.nav_iconos a svg {
+    color: #030347 !important;
+    text-decoration: none;
+}
 .nav_iconos a:visited,
 .nav_iconos a:hover,
 .nav_iconos a:active,
 .nav_iconos a:focus{
-    color: #030347;
+    color: inherit !important;
 }
