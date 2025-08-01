@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/Estudio_PIMSI/static/css/main.357af711.css",
-    "main.js": "/Estudio_PIMSI/static/js/main.fa1cbd34.js",
+    "main.css": "/Estudio_PIMSI/static/css/main.f04aed83.css",
+    "main.js": "/Estudio_PIMSI/static/js/main.09e0ffe5.js",
     "static/media/imagen.jpg": "/Estudio_PIMSI/static/media/imagen.1ed40cba0cecdac417d6.jpg",
     "static/media/Group_10.png": "/Estudio_PIMSI/static/media/Group_10.a247bcb3ab0269e15b0e.png",
+    "static/media/Group_11.png": "/Estudio_PIMSI/static/media/Group_11.80d7e63d1fe59ad2377e.png",
     "static/media/Group_18.png": "/Estudio_PIMSI/static/media/Group_18.80bc6490f0c2b397c8e3.png",
     "static/media/Montserrat-Italic.ttf": "/Estudio_PIMSI/static/media/Montserrat-Italic.c12cc8e898b7a5d2d4c1.ttf",
     "static/media/Montserrat-Bold.ttf": "/Estudio_PIMSI/static/media/Montserrat-Bold.3530bfc1b50b41bdc29d.ttf",
@@ -16,11 +17,11 @@
     "static/media/Poppins-Bold.ttf": "/Estudio_PIMSI/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
     "static/media/Logo-EVL.svg": "/Estudio_PIMSI/static/media/Logo-EVL.85b8e339e2f80ff8d9e9ab805692c56d.svg",
     "index.html": "/Estudio_PIMSI/index.html",
-    "main.357af711.css.map": "/Estudio_PIMSI/static/css/main.357af711.css.map",
-    "main.fa1cbd34.js.map": "/Estudio_PIMSI/static/js/main.fa1cbd34.js.map"
+    "main.f04aed83.css.map": "/Estudio_PIMSI/static/css/main.f04aed83.css.map",
+    "main.09e0ffe5.js.map": "/Estudio_PIMSI/static/js/main.09e0ffe5.js.map"
   },
   "entrypoints": [
-    "static/css/main.357af711.css",
-    "static/js/main.fa1cbd34.js"
+    "static/css/main.f04aed83.css",
+    "static/js/main.09e0ffe5.js"
   ]
 }

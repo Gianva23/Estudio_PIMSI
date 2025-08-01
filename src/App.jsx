@@ -2,6 +2,7 @@ import { React, useState, useRef } from 'react'
 import './App.css'
 import Nav from './sections/Nav/Nav';
 import Home from './sections/Home/Home';
+import Contact from './sections/Contact/Contact';
 import Logros from './sections/Logros/Logros';
 import About from './sections/About/About';
 import Services from './sections/Services/Services';
@@ -19,6 +20,7 @@ function App() {
       <Nav HomeRef={HomeRef} aboutRef={AboutRef} LogrosRef={LogrosRef} ServicesRef={ServicesRef} footerRef={FooterRef} />
       <section ref={HomeRef}><Home/></section>
       <section ref={AboutRef}><About/></section>
+      <Contact/>
       <Logros/>
       <section ref={ServicesRef}><Services/></section>
       <section ref={FooterRef}><Footer/></section>
