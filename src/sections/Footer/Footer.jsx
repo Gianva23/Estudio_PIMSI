@@ -79,7 +79,7 @@ function Footer() {
                         </div>
                     </div>
                     <textarea id="mensaje" rows="6" placeholder='Mensaje' required />
-                    <button className='botoncito' type="submit">Enviar {'>'}</button>
+                    <button className='boton-form' type="submit">Enviar</button>
                 </form>
             </div>
         </div>

@@ -26,7 +26,6 @@
     justify-content: space-between;
     height: 42.98vw;
     padding: 6.52vw 5.5% 0 ;
-    margin-right: 5.5%;
     gap: clamp(0, 7%, 100px);
 
 }
@@ -63,7 +62,14 @@
 }
 
 /*-------------------------- INFO --------------------------*/
-
+.title-container-personas{
+    font-family: 'Montserrat-Bold';
+    font-size: 1.5rem;  /* 24px */
+    line-height: 3.25rem;   /* 52px */
+    color: #030347;
+    margin: 0;
+    padding-left: 5.55%;
+}
 .img-detalle{
     height: 100%;
     position: relative;
@@ -74,7 +80,7 @@
     height: 89px;
     display: flex;
     justify-content: space-between;
-    padding: 106px 5.55% 84px;
+    padding: 35px 5.55% 84px;
 }
 .About-nos{
     display: flex;

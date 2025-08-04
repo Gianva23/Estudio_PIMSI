@@ -20,7 +20,8 @@ function About() {
                     <div className="paralelogramo2"></div>
                     <div className="paralelogramo3"></div>
                 </div>
-                </div>
+            </div>
+            <p className='title-container-personas'>NUESTRO EQUIPO</p>
             <div className="About-container-personas">
                 <div className='About-nos'>
                     <img src={imagen3} alt="worker" className="img-nos"/>

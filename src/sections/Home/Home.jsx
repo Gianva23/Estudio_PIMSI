@@ -53,7 +53,7 @@ function Home() {
             <div className='home-cosas'>
                 <p className='home-texto'>Soluciones integrales para tu comercio</p>
                 <p className='home-texto2'>Somos una consultora especializada en brindar herramientas necesarias y eficientes para mejorar tu negocio</p>
-                <button className='boton'><span>Nuestros servicios</span></button>
+                <button className='boton-home'><span>Nuestros servicios</span></button>
             </div>
         </div>
     );
