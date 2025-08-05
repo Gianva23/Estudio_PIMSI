@@ -3,13 +3,19 @@
     src: url('../../assets/fonts/Montserrat/Montserrat-SemiBold.ttf') format('truetype');
 }
 .nav{
+    position: fixed;
+    top: 0;
+    left: 0;
     height: 112px;
+    width: 100vw;
     padding: 0 5.5% 0 5.5%;
+    box-sizing: border-box;
     background-color: #EAEAEA;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #030347;
+    z-index: 4;
 }
 .nav_logo{
     display: flex;

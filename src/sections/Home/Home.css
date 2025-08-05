@@ -15,6 +15,7 @@
     height: 788px;
     width: 100%;
     overflow: hidden;
+    margin-top: 112px;
 }
 .img-back-slide {
     position: absolute;
@@ -26,7 +27,7 @@
     background-repeat: no-repeat;
     z-index: 1;
 }
-.img-filtro{
+.img-filtro-home{
     width: 100%;
     height: 100%;
     position: absolute;
@@ -87,13 +88,14 @@
     background-color: rgba(132, 107, 95, 0.7);
     width: 233px;
     height: 45px;
-    border: 1.5px solid #EAEAEA;
+    border: 2px solid #EAEAEA;
     border-radius: 50px;
     cursor: pointer;
     font-family: 'Montserrat-SemiBold';
     font-size: 1.125rem; /* 18px */
     line-height: 1.25rem;  /* 20px */
     box-shadow: 0 4px 25px rgba(4,4,226,0.25);
+    padding: 0;
     z-index: 3;
 }
 /*

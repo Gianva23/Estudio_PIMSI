@@ -40,7 +40,7 @@ function Home() {
                     }}
                 ></div>
             ))}
-            <div className='img-filtro'></div>
+            <div className='img-filtro-home'></div>
             <div className='img-dots'>
                 {backgroundImages.map((_, i) => (
                     <button

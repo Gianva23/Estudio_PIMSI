@@ -21,7 +21,7 @@ function About() {
                     <div className="paralelogramo3"></div>
                 </div>
             </div>
-            <p className='title-container-personas'>NUESTRO EQUIPO</p>
+            <p className='title-container-personas'>EQUIPO DIRECTIVO</p>
             <div className="About-container-personas">
                 <div className='About-nos'>
                     <img src={imagen3} alt="worker" className="img-nos"/>
