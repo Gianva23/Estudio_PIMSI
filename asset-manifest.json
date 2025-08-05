@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Estudio_PIMSI/static/css/main.fcded48b.css",
-    "main.js": "/Estudio_PIMSI/static/js/main.00af8549.js",
+    "main.css": "/Estudio_PIMSI/static/css/main.ed7cd55f.css",
+    "main.js": "/Estudio_PIMSI/static/js/main.51d6be64.js",
     "static/media/imagen.jpg": "/Estudio_PIMSI/static/media/imagen.1ed40cba0cecdac417d6.jpg",
     "static/media/Group_10.png": "/Estudio_PIMSI/static/media/Group_10.a247bcb3ab0269e15b0e.png",
     "static/media/Group_11.png": "/Estudio_PIMSI/static/media/Group_11.296018af1b6c41c2c780.png",
@@ -12,17 +12,17 @@
     "static/media/Montserrat-SemiBold.ttf": "/Estudio_PIMSI/static/media/Montserrat-SemiBold.38e62f01be69b2e02e29.ttf",
     "static/media/Montserrat-Regular.ttf": "/Estudio_PIMSI/static/media/Montserrat-Regular.cfbf0da06d33097e6d0a.ttf",
     "static/media/Montserrat-Medium.ttf": "/Estudio_PIMSI/static/media/Montserrat-Medium.d3f3d769c2fc1af5c0b4.ttf",
-    "static/media/employees_working_warehouse.png": "/Estudio_PIMSI/static/media/employees_working_warehouse.8d507630b6d2cd7ce9c6.png",
-    "static/media/imagen_home.png": "/Estudio_PIMSI/static/media/imagen_home.f8f3aef601e1c8254dc3.png",
-    "static/media/wind_farms_fields.png": "/Estudio_PIMSI/static/media/wind_farms_fields.330332447956ba449ed1.png",
+    "static/media/employees_working_warehouse.png": "/Estudio_PIMSI/static/media/employees_working_warehouse.c8bdb4e58940ab2e943e.png",
+    "static/media/imagen_home.png": "/Estudio_PIMSI/static/media/imagen_home.d315b1394224fe965dac.png",
+    "static/media/wind_farms_fields.png": "/Estudio_PIMSI/static/media/wind_farms_fields.fe404062880b78b5387b.png",
     "static/media/Poppins-Bold.ttf": "/Estudio_PIMSI/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
     "static/media/Logo-EVL.svg": "/Estudio_PIMSI/static/media/Logo-EVL.85b8e339e2f80ff8d9e9ab805692c56d.svg",
     "index.html": "/Estudio_PIMSI/index.html",
-    "main.fcded48b.css.map": "/Estudio_PIMSI/static/css/main.fcded48b.css.map",
-    "main.00af8549.js.map": "/Estudio_PIMSI/static/js/main.00af8549.js.map"
+    "main.ed7cd55f.css.map": "/Estudio_PIMSI/static/css/main.ed7cd55f.css.map",
+    "main.51d6be64.js.map": "/Estudio_PIMSI/static/js/main.51d6be64.js.map"
   },
   "entrypoints": [
-    "static/css/main.fcded48b.css",
-    "static/js/main.00af8549.js"
+    "static/css/main.ed7cd55f.css",
+    "static/js/main.51d6be64.js"
   ]
 }
