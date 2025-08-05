@@ -1,9 +1,9 @@
 import './Footer.css'
-import { PiMapPinFill } from "react-icons/pi";
-import { FaRegClock } from "react-icons/fa6";
-import { BsTelephoneFill } from "react-icons/bs";
-import { IoLogoWhatsapp } from "react-icons/io";
-import { MdEmail } from "react-icons/md";
+import { ReactComponent as LogoUbicación } from '../../assets/images/Vector_Ubicación.svg';
+import { ReactComponent as LogoReloj } from '../../assets/images/Vector_Reloj.svg';
+import { ReactComponent as LogoNumCelular } from '../../assets/images/Vector_Núm_Celular.svg';
+import { ReactComponent as LogoWhatsapp } from '../../assets/images/Vector_Whatsapp.svg';
+import { ReactComponent as LogoMail } from '../../assets/images/Vector_Mail.svg';
 
 function Footer() {
     return (
@@ -19,14 +19,14 @@ function Footer() {
                             href="https://www.google.com/maps/place/Av. Maipú 2671, B1602 Vicente López, Provincia de Buenos Aires" 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            ><PiMapPinFill size={23}/>
+                            ><LogoUbicación />
                             <p className='maps-detail'>{"Av. Maipú 2671 (Oficina 21)\nOlivos, Vicente López"}</p>
                         </a>
                     </div>
                     
                     <div className='contact'>
                         <a className='contact-detail'
-                            ><FaRegClock size={21} />
+                            ><LogoReloj/>
                             <p>{"Lunes a Viernes\nDe 08:00 Hs a 16:00 Hs"}</p>
                         </a>
                     </div>
@@ -34,7 +34,7 @@ function Footer() {
                     <div className='contact'>
                         <a className='contact-detail'
                             href="tel:5491147963477"
-                            ><BsTelephoneFill size={19}/>
+                            ><LogoNumCelular/>
                             <p>4796 3477</p>
                         </a>
                     </div>
@@ -44,7 +44,7 @@ function Footer() {
                             href="https://wa.me/5491165363661" 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            ><IoLogoWhatsapp size={23}/>
+                            ><LogoWhatsapp/>
                             <p>15 6536 3661</p>
                         </a>
                     </div>
@@ -54,7 +54,7 @@ function Footer() {
                             href="mailto:info@xxx.gmail.com"
                             target="_blank" 
                             rel="noopener noreferrer"
-                            ><MdEmail size={24}/>
+                            ><LogoMail/>
                             <p>info@xxx.gmail.com</p>
                         </a>
                     </div>

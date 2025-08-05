@@ -1,7 +1,7 @@
 import './Nav.css'
-import Logo from '../../assets/images/Logo-EVL.svg';
-import { IoLogoWhatsapp } from "react-icons/io";
-import { MdEmail } from "react-icons/md";
+import Logo from '../../assets/images/Logotipo.svg';
+import { ReactComponent as LogoWhatsapp } from '../../assets/images/Vector_Whatsapp.svg';
+import { ReactComponent as LogoMail } from '../../assets/images/Vector_Mail.svg';
 import { PiInstagramLogoFill } from "react-icons/pi";
 
 function Nav({ HomeRef, aboutRef, ServicesRef, footerRef }) {
@@ -30,13 +30,13 @@ function Nav({ HomeRef, aboutRef, ServicesRef, footerRef }) {
                         href="https://wa.me/5491165363661" 
                         target="_blank" 
                         rel="noopener noreferrer"
-                        ><IoLogoWhatsapp size={25}/>
+                        ><LogoWhatsapp className="nav_Logo_Whatsapp"/>
                     </a>
                     <a
                         href="mailto:info@xxx.gmail.com"
                         target="_blank" 
                         rel="noopener noreferrer"
-                        ><MdEmail size={25}/>
+                        ><LogoMail className="nav_Logo_Mail"/>
                     </a>
                     <a
                         href="https://www.instagram.com/estudio.pimsi/"
