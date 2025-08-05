@@ -6,7 +6,10 @@ import { PiInstagramLogoFill } from "react-icons/pi";
 
 function Nav({ HomeRef, aboutRef, ServicesRef, footerRef }) {
     const scrollTo = (ref) => {
-        ref.current?.scrollIntoView({ behavior: 'smooth' });
+        if (!ref.current) return;
+        const yOffset = -112; //height del nav
+        const y = ref.current.getBoundingClientRect().top + window.pageYOffset + yOffset;
+        window.scrollTo({ top: y, behavior: 'smooth' });
     }
 
     return (

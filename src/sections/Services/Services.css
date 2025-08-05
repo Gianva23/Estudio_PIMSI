@@ -51,7 +51,8 @@
 .img-card{
     flex: 78%;
     width: 100%;
-    border-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 .title-card-inner{
     flex: 22%;
