@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Estudio_PIMSI/static/css/main.ed7cd55f.css",
-    "main.js": "/Estudio_PIMSI/static/js/main.51d6be64.js",
+    "main.css": "/Estudio_PIMSI/static/css/main.1839efa0.css",
+    "main.js": "/Estudio_PIMSI/static/js/main.6f7b00f2.js",
     "static/media/imagen.jpg": "/Estudio_PIMSI/static/media/imagen.1ed40cba0cecdac417d6.jpg",
     "static/media/Group_10.png": "/Estudio_PIMSI/static/media/Group_10.a247bcb3ab0269e15b0e.png",
     "static/media/Group_11.png": "/Estudio_PIMSI/static/media/Group_11.296018af1b6c41c2c780.png",
@@ -16,13 +16,18 @@
     "static/media/imagen_home.png": "/Estudio_PIMSI/static/media/imagen_home.d315b1394224fe965dac.png",
     "static/media/wind_farms_fields.png": "/Estudio_PIMSI/static/media/wind_farms_fields.fe404062880b78b5387b.png",
     "static/media/Poppins-Bold.ttf": "/Estudio_PIMSI/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
-    "static/media/Logo-EVL.svg": "/Estudio_PIMSI/static/media/Logo-EVL.85b8e339e2f80ff8d9e9ab805692c56d.svg",
+    "static/media/Logotipo.svg": "/Estudio_PIMSI/static/media/Logotipo.070704e73d15938857738f0d6403cf04.svg",
+    "static/media/Vector_Whatsapp.svg": "/Estudio_PIMSI/static/media/Vector_Whatsapp.03adcbe7a6fd0c115b40f1ca23e6e4ab.svg",
+    "static/media/Vector_Reloj.svg": "/Estudio_PIMSI/static/media/Vector_Reloj.471b9cab7823a1dbc84c6ac1e0756d94.svg",
+    "static/media/Vector_Núm_Celular.svg": "/Estudio_PIMSI/static/media/Vector_Núm_Celular.43d353663b6febf14bf8b985f5a80ca4.svg",
+    "static/media/Vector_Ubicación.svg": "/Estudio_PIMSI/static/media/Vector_Ubicación.757a27c45e61c721e6668baade8d4860.svg",
+    "static/media/Vector_Mail.svg": "/Estudio_PIMSI/static/media/Vector_Mail.41283cbe02b3576d21cf08f6486ebbc4.svg",
     "index.html": "/Estudio_PIMSI/index.html",
-    "main.ed7cd55f.css.map": "/Estudio_PIMSI/static/css/main.ed7cd55f.css.map",
-    "main.51d6be64.js.map": "/Estudio_PIMSI/static/js/main.51d6be64.js.map"
+    "main.1839efa0.css.map": "/Estudio_PIMSI/static/css/main.1839efa0.css.map",
+    "main.6f7b00f2.js.map": "/Estudio_PIMSI/static/js/main.6f7b00f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed7cd55f.css",
-    "static/js/main.51d6be64.js"
+    "static/css/main.1839efa0.css",
+    "static/js/main.6f7b00f2.js"
   ]
 }

@@ -98,6 +98,11 @@
     padding: 0;
     z-index: 3;
 }
+@media (max-width: 1080px){
+    .home-container{
+        margin-top: 182px;
+    }
+}
 /*
 .boton-home {
     background-color: rgba(255, 255, 255, 0.2);
