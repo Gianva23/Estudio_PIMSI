@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Estudio_PIMSI/static/css/main.1839efa0.css",
-    "main.js": "/Estudio_PIMSI/static/js/main.6f7b00f2.js",
+    "main.css": "/Estudio_PIMSI/static/css/main.b4132d70.css",
+    "main.js": "/Estudio_PIMSI/static/js/main.ace06c96.js",
     "static/media/imagen.jpg": "/Estudio_PIMSI/static/media/imagen.1ed40cba0cecdac417d6.jpg",
     "static/media/Group_10.png": "/Estudio_PIMSI/static/media/Group_10.a247bcb3ab0269e15b0e.png",
     "static/media/Group_11.png": "/Estudio_PIMSI/static/media/Group_11.296018af1b6c41c2c780.png",
@@ -23,11 +23,12 @@
     "static/media/Vector_Ubicación.svg": "/Estudio_PIMSI/static/media/Vector_Ubicación.757a27c45e61c721e6668baade8d4860.svg",
     "static/media/Vector_Mail.svg": "/Estudio_PIMSI/static/media/Vector_Mail.41283cbe02b3576d21cf08f6486ebbc4.svg",
     "index.html": "/Estudio_PIMSI/index.html",
-    "main.1839efa0.css.map": "/Estudio_PIMSI/static/css/main.1839efa0.css.map",
-    "main.6f7b00f2.js.map": "/Estudio_PIMSI/static/js/main.6f7b00f2.js.map"
+    "static/media/icons_menu.svg": "/Estudio_PIMSI/static/media/icons_menu.f62fd72a67a8e6bc1054e57a230181c5.svg",
+    "main.b4132d70.css.map": "/Estudio_PIMSI/static/css/main.b4132d70.css.map",
+    "main.ace06c96.js.map": "/Estudio_PIMSI/static/js/main.ace06c96.js.map"
   },
   "entrypoints": [
-    "static/css/main.1839efa0.css",
-    "static/js/main.6f7b00f2.js"
+    "static/css/main.b4132d70.css",
+    "static/js/main.ace06c96.js"
   ]
 }
