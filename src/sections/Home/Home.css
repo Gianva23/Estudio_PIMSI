@@ -69,8 +69,8 @@
 .home-texto{
     margin: 0;
     font-family: 'Poppins-Bold';
-    font-size: 4.5rem;
-    line-height: 4.625rem;
+    font-size: 4.5rem;  /* 72px */
+    line-height: 4.625rem;  /* 72px */
     color: #EAEAEA;
     z-index: 3;
 }
@@ -78,8 +78,8 @@
     margin: 0;
     font-family: 'Montserrat-Medium';
     width: 630px;
-    font-size: 1.125rem;
-    line-height: 1.5rem;
+    font-size: 1.125rem;    /* 18px */
+    line-height: 1.5rem;    /* 24px */
     color: #EAEAEA;
     z-index: 3;
 }
@@ -101,6 +101,35 @@
 @media (max-width: 1080px){
     .home-container{
         margin-top: 182px;
+        height: 1019px;
+    }
+    .dot {
+        width: 23px;
+        height: 23px;
+    }
+    .home-cosas{
+        width: 552px;
+        padding-top: 153px;
+        gap: 38px;
+    }
+    .home-texto{
+        font-size: 6rem;  /* 96px */
+        line-height: 6rem;  /* 96px */
+    }
+    .home-texto2{
+        width: 100%;
+        font-size: 1.875rem;    /* 30px */
+        line-height: 2.125rem;    /* 34px */
+    }
+    .boton-home {
+        background-color: rgba(143, 143, 137, 0.8);
+        width: 409.23px;
+        height: 64px;
+        border: 3.5px solid #EAEAEA;
+        border-radius: 60px;
+        font-size: 1.875rem;    /* 30px */
+        line-height: 1.25rem;  /* 20px */
+        margin-top: 17px;
     }
 }
 /*
