@@ -16,8 +16,7 @@
 }
 .About-container{
     width: auto;
-    background-color: #D9D9D9;
-    opacity: 0.9;
+    background-color:rgba(217, 217, 217,0.9);
     display: grid;
     align-items:flex-start;
 }
@@ -62,7 +61,8 @@
 }
 @media (max-width: 1080px){
     .About-container{
-        height: 1491px;
+        min-height: 1448px;
+        height: auto;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -163,6 +163,7 @@
         padding: 0;
         padding-left: 80px;
         padding-top: 37px;
+        padding-bottom: 103px;
         flex-direction: column;
         justify-content: flex-start;
         gap: 63px;
@@ -218,41 +219,4 @@
     background-color: #0404E2;
     clip-path: polygon(0 0, 80% 0, 100% 100%, 20% 100%);
     z-index: 0;
-}
-.detalle-1080{
-    display:none;
-    height: 200px;
-    width: 100%;
-}
-@media (max-width: 1080px){
-    .detalle-1080{
-        display:flex;
-        gap: 30px;
-        padding-left: 26px;
-        padding-top: 104px;
-    }
-    .paralelogramo4 {
-        position: relative;
-        width: 115px; /* 192px */
-        height: 43px; /* 133px */
-        background-color: #0404E2;
-        clip-path: polygon(0 0, 80% 0, 90% 100%, 10% 100%);
-        z-index: 0;
-    }
-    .paralelogramo5 {
-        position: relative;
-        width: 127px; /* 192px */
-        height: 88px; /* 133px */
-        background-color: #0404E2;
-        clip-path: polygon(0 0, 80% 0, 100% 100%, 20% 100%);
-        z-index: 5;
-    }
-    .paralelogramo6 {
-        position: relative;
-        width: 115px; /* 192px */
-        height: 43px; /* 133px */
-        background-color: #0404E2;
-        clip-path: polygon(0 0, 80% 0, 90% 100%, 10% 100%);
-        z-index: 0;
-    }
 }
