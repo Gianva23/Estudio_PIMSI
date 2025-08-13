@@ -37,3 +37,32 @@
     transform: rotateY(180deg);
     background-color: #EAEAEA;
 }
+.container-flip-icon{
+    position: absolute;
+    top: 15px;
+    right: 16px;
+    z-index: 2;
+}
+.flip-icon{
+    width: 20px;
+    height: 19px;
+    color: #EAEAEA;
+}
+@media (max-width: 1300px) {
+    .flip-card {
+        width: 752px;
+        height: 710px;
+        perspective: 1000px;
+        cursor: pointer;
+        will-change: transform;
+        overflow: visible;
+    }
+    .container-flip-icon{
+        top: 32px;
+        right: 42px;
+    }
+    .flip-icon{
+        width: 31px;
+        height: 40px;
+    }
+}
