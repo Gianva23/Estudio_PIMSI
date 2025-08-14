@@ -60,7 +60,7 @@
     text-shadow: 0 4px 9.4px rgba(234, 234, 234,0.25);
     z-index: 2;
 }
-@media (max-width: 1080px){
+@media (max-width: 1200px){
     .contact-container{
         height: 435px;
         border-top: 43px;
@@ -110,7 +110,7 @@
     padding-left: 26px;
     padding-top: 0px;
 }
-@media (max-width: 1080px){
+@media (max-width: 1200px){
     .detalle-1080{
         display:flex;
     }

@@ -14,19 +14,22 @@
     font-family: 'Montserrat-Italic';
     src: url('../../assets/fonts/Montserrat/Montserrat-Italic.ttf') format('truetype');
 }
-.About-container{
-    width: auto;
+.About{
+    width: 100%;
     background-color:rgba(217, 217, 217,0.9);
+}
+.About-container{
     display: grid;
     align-items:flex-start;
+    max-width: 2000px;
+    margin: 0 auto;
 }
 .About-container-flex{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 42.98vw;
-    padding: 6.52vw 5.5% 0 ;
-    gap: clamp(0, 7%, 100px);
+    width: auto;
+    padding: 94px 7.5% 30px;
 }
 .About-Titulo1{
     font-family: 'Montserrat-Bold';
@@ -48,7 +51,7 @@
     font-size: 1.125rem;  /* 18px */
     line-height: 1.5rem;   /* 24px */
     color: #000000;
-    width: 548px;
+    width: 537px;
     margin: 0px;
     margin-top: 29px;
 }
@@ -59,7 +62,7 @@
     z-index: 1;
     position: relative;
 }
-@media (max-width: 1080px){
+@media (max-width: 1200px){
     .About-container{
         min-height: 1448px;
         height: auto;
@@ -83,14 +86,14 @@
         font-size: 2.25rem;  /* 36px */
     }
     .About-Titulo2{
-        padding-top: 26px;
-        padding-bottom: 60px;
+        padding: 26px 0px 60px;
         display: flex;
         justify-content: center;
         font-size: 4.6875rem;  /* 75px */
     }
     .About-Texto{
         padding-left: 80px;
+        padding-right: 80px;
         color: #030347;
         width: auto;
         max-width: 920px;
@@ -102,7 +105,8 @@
 }
 /*-------------------------- INFO --------------------------*/
 .img-detalle{
-    height: 100%;
+    height: 43vw;
+    max-height: 619px;
     position: relative;
     display: block;
     overflow: visible;
@@ -113,13 +117,13 @@
     line-height: 3.25rem;   /* 52px */
     color: #030347;
     margin: 0;
-    padding-left: 5.55%;
+    padding-left: 7.5%;
 }
 .About-container-personas{
     height: 89px;
     display: flex;
     justify-content: space-between;
-    padding: 35px 5.55% 84px;
+    padding: 24px 7.5% 84px;
 }
 .About-nos{
     display: flex;
@@ -149,7 +153,7 @@
     color: #000000;
     margin: 0px;
 }
-@media (max-width: 1080px){
+@media (max-width: 1200px){
     .img-detalle{
         display: none;
     }
@@ -192,30 +196,30 @@
 
 .paralelogramo1 {
     position: absolute;
-    top: -15.18%;   /* 94px de 619 */
+    top: -94px;   /* 94px de 619 */
     left: 3.17%;    /* 20px de 630px*/
-    width: 13.33vw; /* 192px */
-    height: 9.23vw; /* 133px */
+    width: 30.5%; /* 192px  13.33vw*/
+    height: 133px; /* 133px  9.23vw*/
     background-color: #0404E2;
     clip-path: polygon(0 0, 80% 0, 100% 100%, 20% 100%);
     z-index: 0;
 }
 .paralelogramo2 {
     position: absolute;
-    top: -15.18%;   /* 94px de 619 */
+    top: -94px;   /* 94px de 619 */
     left: 33.65%;    /* 942px de 630px */
-    width: 13.33vw; /* 192px */
-    height: 9.23vw; /* 133px */
+    width: 30.5%; /* 192px  13.33vw*/
+    height: 133px; /* 133px  9.23vw*/
     background-color: #0404E2;
     clip-path: polygon(0 0, 80% 0, 100% 100%, 20% 100%);
     z-index: 2;
 }
 .paralelogramo3 {
     position: absolute;
-    top: -15.18%;   /* 94px de 619 */
+    top: -94px;   /* 94px de 619 */
     left: 64.12%;   /* 1134px de 630px */
-    width: 13.33vw; /* 192px */
-    height: 9.23vw; /* 133px */
+    width: 30.5%; /* 192px  13.33vw*/
+    height: 133px; /* 133px  9.23vw*/
     background-color: #0404E2;
     clip-path: polygon(0 0, 80% 0, 100% 100%, 20% 100%);
     z-index: 0;
