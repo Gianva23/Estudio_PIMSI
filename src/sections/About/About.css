@@ -92,8 +92,8 @@
         font-size: 4.6875rem;  /* 75px */
     }
     .About-Texto{
-        padding-left: 80px;
-        padding-right: 80px;
+        padding-left: 7.40%;
+        padding-right: 7.40%;
         color: #030347;
         width: auto;
         max-width: 920px;
@@ -101,6 +101,11 @@
         line-height: 2.125rem;   /* 34px */
         padding-top: 33px;
         margin: 0;
+    }
+}
+@media (max-width: 800px){
+    .About-Titulo2{
+        font-size: 3.75rem;  /* 75px */
     }
 }
 /*-------------------------- INFO --------------------------*/
@@ -159,13 +164,13 @@
     }
     .title-container-personas{
         font-size: 1.875rem;  /* 30px */
-        padding-left: 80px;
+        padding-left: 7.40%;
         padding-top: 89px;
     }
     .About-container-personas{
         height: auto;
         padding: 0;
-        padding-left: 80px;
+        padding-left: 7.40%;
         padding-top: 37px;
         padding-bottom: 103px;
         flex-direction: column;
