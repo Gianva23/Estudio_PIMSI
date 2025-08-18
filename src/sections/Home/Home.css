@@ -57,6 +57,10 @@
     background: #EAEAEA;
     opacity: 0.9;
 }
+.home-centrado{
+    max-width: 1800px;
+    margin: 0 auto;
+}
 .home-cosas{
     display: flex;
     flex-direction: column;

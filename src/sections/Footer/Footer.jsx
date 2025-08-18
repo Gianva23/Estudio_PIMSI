@@ -74,7 +74,7 @@ function Footer() {
                         </div>
                         <div className="container-form-group">
                             <div className="form-group">
-                                <input type="tel" pattern="[0-9]*" inputmode="numeric" name="telefono" placeholder='Teléfono'/>
+                                <input type="tel" pattern="[0-9]*" inputMode="numeric" name="telefono" placeholder='Teléfono'/>
                             </div>
 
                             <div className="form-group">

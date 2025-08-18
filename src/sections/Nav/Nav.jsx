@@ -23,7 +23,6 @@ function Nav({ HomeRef, aboutRef, ServicesRef, footerRef }) {
         window.scrollTo({ top: y, behavior: 'smooth' });
     }
 
-    //Cerrar persiana por clickear afuera de esta
     const ToggleMenu = (e) => {
         e.stopPropagation();
         setMenuOpen((prev) => !prev);

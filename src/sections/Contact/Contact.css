@@ -98,6 +98,11 @@
         box-shadow: 0 4px 25px rgba(4, 4, 226, 0.25);
     }
 }
+@media (max-width: 900px){
+    .contact-container-title{
+        font-size: 3.75rem;    /* 60px */
+    }
+}
 
 /*------------------------ PARALELOGRAMOS -------------------------*/
 

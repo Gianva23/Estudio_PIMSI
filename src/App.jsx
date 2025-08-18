@@ -18,9 +18,9 @@ function App() {
   return (
     <>
       <Nav HomeRef={HomeRef} aboutRef={AboutRef} LogrosRef={LogrosRef} ServicesRef={ServicesRef} footerRef={FooterRef} />
-      <section ref={HomeRef}><Home/></section>
+      <section ref={HomeRef}><Home ServicesRef={ServicesRef}/></section>
       <section ref={AboutRef}><About/></section>
-      <Contact/>
+      <Contact footerRef={FooterRef}/>
       <Logros/>
       <section ref={ServicesRef}><Services/></section>
       <section ref={FooterRef}><Footer/></section>

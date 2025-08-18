@@ -5,10 +5,22 @@ import img2 from '../../assets/images/Group_11.png';
 
 const backgroundImages = [img1, img2];
 
-function Home() {
+function Home({ServicesRef}) {
     const [currentIndex, setCurrentIndex] = useState(0);
     const intervalRef = useRef(null);
 
+    //Scroll to
+    const handleNavClick = (ref) => {
+        scrollTo(ref);
+    };
+    const scrollTo = (ref) => {
+        if (!ref.current) return;
+        const yOffset = window.innerWidth > 1080 ? -112 : -182;
+        const y = ref.current.getBoundingClientRect().top + window.pageYOffset + yOffset;
+        window.scrollTo({ top: y, behavior: 'smooth' });
+    }
+
+    //Slides IMG
     const startAutoSlide = () => {
         if (intervalRef.current) {
             clearInterval(intervalRef.current);
@@ -17,7 +29,6 @@ function Home() {
             setCurrentIndex((prev) => (prev + 1) % backgroundImages.length);
         }, 10000);
     };
-
     const handleDotClick = (index) => {
         setCurrentIndex(index);
     };
@@ -50,10 +61,12 @@ function Home() {
                     ></button>
                 ))}
             </div>
-            <div className='home-cosas'>
-                <p className='home-texto'>Soluciones integrales para tu comercio</p>
-                <p className='home-texto2'>Somos una consultora especializada en brindar herramientas necesarias y eficientes para mejorar tu negocio</p>
-                <button className='boton-home'><span>Nuestros servicios</span></button>
+            <div className='home-centrado'>
+                <div className='home-cosas'>
+                    <p className='home-texto'>Soluciones integrales para tu comercio</p>
+                    <p className='home-texto2'>Somos una consultora especializada en brindar herramientas necesarias y eficientes para mejorar tu negocio</p>
+                    <button className='boton-home' onClick={() => handleNavClick(ServicesRef)}><span>Nuestros servicios</span></button>
+                </div>
             </div>
         </div>
     );
