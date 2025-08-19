@@ -40,7 +40,7 @@
     left: 50%;
     transform: translateX(-50%);
     display: flex;
-    gap: 16.5px;
+    gap: 13px;
     z-index: 2;
 }
 .dot {
@@ -107,6 +107,9 @@
         margin-top: 182px;
         height: 1019px;
     }
+    .img-dots{
+        gap: 20px;
+    }
     .dot {
         width: 23px;
         height: 23px;
@@ -145,7 +148,6 @@
     }
     .img-dots{
         bottom: 6.48vw;
-        gap: 1.52vw;
     }
     .dot{
         width: 19px;
