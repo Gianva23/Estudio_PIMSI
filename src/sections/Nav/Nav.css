@@ -147,9 +147,6 @@
     .nav_medio.mobile {
         display: flex;
     }
-    .nav_logo {
-        width: 475px;
-    }
     .nav_iconos{
         display: flex;
         align-items: center;
