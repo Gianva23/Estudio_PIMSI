@@ -116,6 +116,9 @@
 }
 /*----- Proporciones de 1080px -----*/
 @media (max-width: 900px){
+    .footer{
+        min-height: 57.87vw;
+}
     .flex-footer-top{  
         padding: 9.44vw 0 6.75vw 7.4vw;
     }
@@ -143,6 +146,10 @@
         width: 2.77vw;
         height: 2.77vw;
         padding: 1px;
+    }
+    .contact-detail{
+        gap: 1.38vw;
+        min-width: 25.09vw;
     }
 }
 a:visited,
