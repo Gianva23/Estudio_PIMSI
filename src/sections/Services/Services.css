@@ -113,3 +113,30 @@
         max-width: 400px;
     }
 }
+/*----- Proporciones de 1080px -----*/
+@media (max-width: 900px) {
+    .Services-title{
+        font-size: 3.33vw;
+        line-height: 4.8vw;
+        color: #000000;
+        margin: 8vw 0 0 0;
+    }
+    .Services-title2{
+        font-size: 7vw;
+        line-height: 7.4vw;
+        width: 60vw;
+    }
+    .container-cards {
+        gap: 6.94vw;
+        margin: 9.9vw 0vw 9.63vw;
+    }
+    .title-card-inner{
+        font-size: 3.33vw;
+        line-height: 6.85vw;  /* 74px */
+    }
+    .card-inner-back{
+        font-size: 2.2vw;
+        line-height: 2.4vw;
+        max-width: 37vw;
+    }
+}

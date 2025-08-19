@@ -66,9 +66,18 @@
         height: 40px;
     }
 }
-@media (max-width: 900px) {
+/*----- Proporciones de 1080px -----*/
+@media (max-width: 900px){
     .flip-card {
-        width: 630px;
-        height: 595px;
+        width: 70vw;
+        height: 66vw;
+    }
+    .container-flip-icon{
+        top: 4vw;
+        right: 4vw;
+    }
+    .flip-icon{
+        width: 5vw;
+        height: 5vw;
     }
 }

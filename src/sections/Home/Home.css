@@ -114,6 +114,7 @@
     .home-cosas{
         width: 552px;
         padding-top: 153px;
+        padding-left: 7.4vw;
         gap: 38px;
     }
     .home-texto{
@@ -136,7 +137,46 @@
         margin-top: 17px;
     }
 }
-/* boton transparente
+/*----- Proporciones de 1080px -----*/
+@media (max-width: 900px){
+    .home-container{
+        margin-top: 16.85vw; /* Margen de NAV */
+        height: 94.44vw;
+    }
+    .img-dots{
+        bottom: 6.48vw;
+        gap: 1.52vw;
+    }
+    .dot{
+        width: 19px;
+        height: 19px;
+    }
+    .home-cosas{
+        width: 51.11vw;
+        padding-top: 14.16vw;
+        padding-left: 7.4vw;
+        gap: 3.51vw;
+    }
+    .home-texto{
+        font-size: 6.66vw;  /* 72px */
+        line-height: 6.66vw;  /* 72px */
+    }
+    .home-texto2{
+        width: 41vw;
+        font-size: 2.2vw;
+        line-height: 2.22vw;
+    }
+    .boton-home {
+        width: 21.57vw;
+        height: 4.16vw;
+        border: 0.18vw solid #EAEAEA;
+        font-size: 1.6vw;
+        line-height: 2.22vw;
+        box-shadow: 0 0.37vw 2.31vw rgba(4,4,226,0.25);
+        margin-top: 1.57vw;
+    }
+}
+/* boton transparente 1440px
 .boton-home {
     background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(8px);

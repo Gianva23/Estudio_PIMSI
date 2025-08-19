@@ -168,3 +168,47 @@
         display: flex;
     }
 }
+/*----- Proporciones de 1080px -----*/
+@media (max-width: 900px){
+    .nav{
+        height: 16.85vw;
+        padding: 0 7.4% 0;
+    }
+    .nav_logo{
+        width: auto;
+    }
+    .nav_logo img{
+        height: 16.85vw;
+    }
+    .nav_medio.mobile {
+        padding: 8.79vw 0px 0 13%;
+        gap: 3.42vw;
+    }
+    .nav_medio.mobile.menu-open {
+        max-height: 55.37vw;
+        height: 55.37vw;
+    }
+    .nav_componentes.mobile{
+        font-size: 3.33vw;    /* 36px */
+        line-height: 4.81vw;  /* 52px */
+        max-width: 55.55vw;
+    }
+    .nav_Logo_Whatsapp{
+        width: 5.74vw;
+        height: 5.74vw;
+    }
+    .nav_desplegable{
+        width: 5.55vw;
+        height: 5.55vw;
+    }
+    .menu-toggle {
+        font-size: 2.96vw;
+    }
+    .Logo_Menu{
+        width: 5.55vw;
+        height: 5.55vw;
+        padding: 0.92vw;
+        border: 0.27vw solid #030347;
+        border-radius: 1.38vw;
+    }
+}

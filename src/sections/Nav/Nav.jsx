@@ -18,7 +18,16 @@ function Nav({ HomeRef, aboutRef, ServicesRef, footerRef }) {
 
     const scrollTo = (ref) => {
         if (!ref.current) return;
-        const yOffset = window.innerWidth > 1080 ? -112 : -182;
+        let yOffset;
+
+        if (window.innerWidth < 900) {
+            yOffset = -(window.innerWidth * 0.1681);
+        } else if (window.innerWidth > 1080) {
+            yOffset = -112;
+        } else {
+            yOffset = -182;
+        }
+
         const y = ref.current.getBoundingClientRect().top + window.pageYOffset + yOffset;
         window.scrollTo({ top: y, behavior: 'smooth' });
     }

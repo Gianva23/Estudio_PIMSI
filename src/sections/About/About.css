@@ -103,9 +103,28 @@
         margin: 0;
     }
 }
-@media (max-width: 800px){
+/*----- Proporciones de 1080px -----*/
+@media (max-width: 900px){
+    .About-container{
+        min-height: 134.07vw;
+    }
+    .About-Titulo1{
+        padding-top: 14.16vw;
+        font-size: 3.33vw;  /* 36px */
+        line-height: 3.33vw;  /* 36px */
+    }
     .About-Titulo2{
-        font-size: 3.75rem;  /* 75px */
+        padding: 2.4vw 0px 5.55vw;
+        font-size: 6.94vw;  /* 75px */
+        line-height: 6.94vw;  /* 75px */
+    }
+    .About-Texto{
+        padding-left: 7.40%;
+        padding-right: 7.40%;
+        max-width: 85.18vw;
+        font-size: 2.77vw;  /* 30px */
+        line-height: 3.14vw;   /* 34px */
+        padding-top: 3.05vw;
     }
 }
 /*-------------------------- INFO --------------------------*/
@@ -196,7 +215,36 @@
         color: #030347;
     }
 }
-
+/*----- Proporciones de 1080px -----*/
+@media (max-width: 900px){
+    .title-container-personas{
+        font-size: 2.77vw;  /* 30px */
+        line-height: 4.81vw;   /* 52px */
+        padding-left: 7.40%;
+        padding-top: 8.24vw;
+    }
+    .About-container-personas{
+        padding-left: 7.40%;
+        padding-top: 3.42vw;
+        padding-bottom: 9.53vw;
+        gap: 5.83vw;
+    }
+    .About-nos{
+        gap: 5vw;
+    }
+    .img-nos{
+        height: 12.31vw;
+        border-radius: 1.94vw;
+    }
+    .About-nombre{
+        font-size: 2.77vw;  /* 30px */
+        line-height: 3.14vw;   /* 34px */
+    }
+    .About-titulo{
+        font-size: 2.77vw;  /* 30px */
+        line-height: 3.14vw;   /* 34px */
+    }
+}
 /*------------------------ PARALELOGRAMOS -------------------------*/
 
 .paralelogramo1 {
