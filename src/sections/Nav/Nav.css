@@ -136,7 +136,7 @@
         padding: 0 7.4% 0 7.4%;
     }
     .nav_logo{
-        width: 220px;
+        width: auto;
     }
     .nav_logo img{
         height: 182px;
@@ -209,3 +209,8 @@
         border-radius: 1.38vw;
     }
 }
+
+/*
+Ver nav entre 900 y 1080 centrar
+Ver icono hamburguesa menor 900 centrar
+*/
