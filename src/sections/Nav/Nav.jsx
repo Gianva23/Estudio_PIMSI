@@ -61,7 +61,7 @@ function Nav({ HomeRef, aboutRef, ServicesRef, footerRef }) {
                     </button>
                 </div>
                 <div className='nav_logo'>
-                    <img src={Logo} alt="Logo" />
+                    <img src={Logo} alt="LogoEstudio_VicenteLopez" />
                 </div>
                 <ul className="nav_medio desktop">
                     <li className="nav_componentes" onClick={() => handleNavClick(HomeRef)}>Inicio</li>
