@@ -10,8 +10,6 @@ export default function Reviews() {
   const [reviews, setReviews] = useState([]);
   const [start, setStart] = useState(0);
   const [currentRev, setCurrentRev] = useState(0);
-  const [touchStartX, setTouchStartX] = useState(0);
-  const [touchEndX, setTouchEndX] = useState(0);
   const touchStartXRef = useRef(0);
   const [width, setWidth] = useState(window.innerWidth);
   const sliderRef = useRef(null);
@@ -72,8 +70,6 @@ export default function Reviews() {
   }
 
   /*--------------- SWIPE DE CARDS ---------------*/
-
-
 const handleTouchStart = (e) => {
   touchStartXRef.current = e.touches[0].clientX;
 };
@@ -112,7 +108,7 @@ const handleTouchEnd = (e) => {
       setStart(currentRev);
     }
   }, [currentRev, isMobile]);
-
+  
   return (
     <div className="review-container">
       <div className="review-header">
