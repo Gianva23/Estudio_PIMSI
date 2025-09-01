@@ -12,9 +12,7 @@ function Services() {
     useEffect(() => {
         const forceRender = () => setTick(prev => prev + 1);
         window.addEventListener('resize', forceRender);
-        return () => {
-            window.removeEventListener('resize', forceRender);
-        };
+        return () => window.removeEventListener('resize', forceRender);
     }, []);
 
     return (

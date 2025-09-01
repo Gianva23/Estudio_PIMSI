@@ -1,0 +1,279 @@
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url('../../assets/fonts/Poppins/Poppins-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../../assets/fonts/Montserrat/Montserrat-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../../assets/fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
+}
+.review-container{
+  min-height: 900px;
+  max-height: fit-content;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(217, 217, 217, 0.9);
+}
+.review-header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 112px;
+  padding-bottom: 54px;
+}
+.review-title-1{
+  font-family: 'Montserrat-Bold';
+  font-size: 1.5rem;  /* 24px */
+  line-height: 3.25rem;    /* 52px */
+  margin: 0;
+  padding: 0;
+}
+.review-title-2{
+  font-family: 'Poppins-Bold';
+  font-size: 3rem;  /* 48px */
+  line-height: 4.625rem;    /* 74px */
+  color: #0404E2;
+  margin: 0;
+  padding: 0;
+}
+.slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.slider {
+  overflow: hidden;
+  width: 100%;
+  max-width: 1281px;
+  padding-bottom: 20px;
+}
+
+.slider-inner {
+  display: flex;
+  transition: transform 0.5s ease;
+  width: 100%;
+}
+
+.card {
+  max-height: fit-content;
+  min-height: 481px;
+  min-width: calc((100% / 3));
+  box-sizing: border-box;
+  margin: 0;
+  padding-right: 11px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+
+.card-inner{
+  height: 100%;
+  background: #EAEAEA;
+  margin: 0;
+  padding: 20px 20px 0 20px;
+  border-radius: 25px;
+  box-shadow: 0 7px 15px rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+}
+
+.card-top{
+  display: flex;
+  align-items: center;
+  gap: 5%;
+}
+
+.avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card-top-name{
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  left: 10%;
+}
+
+.review-name{
+  font-family: 'Montserrat-Bold';
+  font-size: 1rem;  /* 16px */
+  line-height: 1.5rem;    /* 32px */
+  margin: 0;
+}
+
+.Logo-Google{
+  margin-left: auto;
+  height: 50px;
+  width: 50px;
+}
+
+.card-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.review-time{
+  font-family: 'Montserrat-Regular';
+  font-size: 0.8rem;
+  line-height: 0;
+}
+
+.card-footer {
+  font-family: 'Montserrat-Bold';
+  margin-top: auto;
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.google-link {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background-color: #4285f4;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.google-link:hover {
+  background-color: #357ae8;
+}
+
+.arrow {
+  background: transparent;
+  color:rgba(143, 143, 137, 0.8);
+  border: none;
+  cursor: pointer;
+  padding: 0 20px;
+  z-index: 2;
+}
+
+.rev-dots{
+  display: none;
+}
+
+@media (max-width: 1080px){
+  .review-container{
+    min-height: 103.7vw;
+  }
+
+  .review-header{
+    padding-top: 8.24vw;
+    padding-bottom: 6.38vw;
+  }
+
+  .review-title-1{
+    font-size: 3.33vw;  /* 36px */
+    line-height: 4.81vw;    /* 52px */
+  }
+  .review-title-2{
+    font-size: 6.94vw;  /* 75px */
+    line-height: 7.4vw;    /* 80px */
+    width: 85.18vw;
+    text-align: center;
+  }
+
+  .slider {
+    width: 77.22%;
+    padding-bottom: 1.85vw;
+  }
+
+  .card {
+    min-height: 52.77vw;
+    min-width: 100%;
+    padding-right: 1.85vw;
+    padding-left: 1.85vw;
+  }
+
+  .card-inner{
+    min-height: 50.83vw;
+    padding: 1.85vw 1.85vw 0 1.85vw;
+    border-radius: 2.31vw;
+  box-shadow: 0 0.648vw 1.388vw rgba(0,0,0,0.15);
+  }
+
+  .card-top{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+  }
+
+  .avatar {
+    width: 13.88vw;
+    height: 13.88vw;
+  }
+
+  .review-name{
+    font-size: 2.96vw;  /* 32px */
+    line-height: 3.7vw;    /* 40px */
+  }
+
+  .review-time{
+    font-size: 1.85vw; /* 20px */
+    line-height: 0;
+  }
+
+  .Logo-Google{
+    height: 10.18vw;
+    width: 10.18vw;
+    padding: 1.85vw;
+  }
+
+  .card-info{
+    padding-top: 1.85vw;
+    padding-bottom: 1.85vw;
+  }
+
+  .card-footer {
+    margin: 0;
+    margin-top: auto;
+    padding-bottom: 3.7vw;
+  }
+
+  .google-link {
+    padding: 1.85vw 2.31vw;
+    border-radius: 0.92vw;
+    font-size: 2.22vw;  /* 24px */
+  }
+
+  .rev-dots{
+    display: flex;
+    justify-content: center;
+    padding: 4.9vw 0 4.629vw 0;
+    gap: 1.2vw;
+  }
+
+  .dot {
+    width: 2.129vw;
+    height: 2.129vw;
+    border-radius: 50%;
+    background: #EAEAEA;
+    opacity: 0.5;
+    border: none;
+    cursor: pointer;
+    transition: opacity 1s;
+}
+.dot.active {
+    background: #EAEAEA;
+    opacity: 0.9;
+}
+  
+  .arrow {
+    display: none;
+  }
+}

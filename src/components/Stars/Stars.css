@@ -1,0 +1,24 @@
+.stars {
+    display: flex;
+    gap: 0.462vw;
+}
+
+.star {
+    font-size: 2.31vw;
+    color: #ccc;
+    transition: color 0.2s;
+}
+
+.star.filled {
+    color: #fbc02d;
+}
+
+@media (max-width: 1080px){
+    .stars {
+        gap: 1.85vw;
+    }
+
+    .star {
+        font-size: 3.7vw;
+    }
+}
