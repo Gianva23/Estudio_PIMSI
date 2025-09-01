@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Estudio_PIMSI/static/css/main.de8e03b9.css",
-    "main.js": "/Estudio_PIMSI/static/js/main.78b98a0b.js",
+    "main.css": "/Estudio_PIMSI/static/css/main.a8eb1b11.css",
+    "main.js": "/Estudio_PIMSI/static/js/main.52e3edba.js",
     "static/media/imagen.jpg": "/Estudio_PIMSI/static/media/imagen.1ed40cba0cecdac417d6.jpg",
     "static/media/Group_10.png": "/Estudio_PIMSI/static/media/Group_10.a247bcb3ab0269e15b0e.png",
     "static/media/Group_11.png": "/Estudio_PIMSI/static/media/Group_11.296018af1b6c41c2c780.png",
@@ -20,17 +20,20 @@
     "static/media/Logotipo.svg": "/Estudio_PIMSI/static/media/Logotipo.070704e73d15938857738f0d6403cf04.svg",
     "static/media/Vector_Whatsapp.svg": "/Estudio_PIMSI/static/media/Vector_Whatsapp.03adcbe7a6fd0c115b40f1ca23e6e4ab.svg",
     "static/media/Vector_Reloj.svg": "/Estudio_PIMSI/static/media/Vector_Reloj.471b9cab7823a1dbc84c6ac1e0756d94.svg",
+    "static/media/Vector_Google.svg": "/Estudio_PIMSI/static/media/Vector_Google.94b3be81097613cbfed5043a97d700f7.svg",
     "static/media/Vector_Núm_Celular.svg": "/Estudio_PIMSI/static/media/Vector_Núm_Celular.43d353663b6febf14bf8b985f5a80ca4.svg",
     "static/media/Vector_Ubicación.svg": "/Estudio_PIMSI/static/media/Vector_Ubicación.757a27c45e61c721e6668baade8d4860.svg",
     "static/media/icons_flip.svg": "/Estudio_PIMSI/static/media/icons_flip.86a3e7ba36baec2ec08c618fdb4545a3.svg",
     "static/media/Vector_Mail.svg": "/Estudio_PIMSI/static/media/Vector_Mail.41283cbe02b3576d21cf08f6486ebbc4.svg",
     "index.html": "/Estudio_PIMSI/index.html",
     "static/media/icons_menu.svg": "/Estudio_PIMSI/static/media/icons_menu.f62fd72a67a8e6bc1054e57a230181c5.svg",
-    "main.de8e03b9.css.map": "/Estudio_PIMSI/static/css/main.de8e03b9.css.map",
-    "main.78b98a0b.js.map": "/Estudio_PIMSI/static/js/main.78b98a0b.js.map"
+    "static/media/Vector_Arrow_L.svg": "/Estudio_PIMSI/static/media/Vector_Arrow_L.00a13cb62435a878b248a1f13c311daa.svg",
+    "static/media/Vector_Arrow_R.svg": "/Estudio_PIMSI/static/media/Vector_Arrow_R.93b0fd368fccaac4fc2e5ca7f583e4aa.svg",
+    "main.a8eb1b11.css.map": "/Estudio_PIMSI/static/css/main.a8eb1b11.css.map",
+    "main.52e3edba.js.map": "/Estudio_PIMSI/static/js/main.52e3edba.js.map"
   },
   "entrypoints": [
-    "static/css/main.de8e03b9.css",
-    "static/js/main.78b98a0b.js"
+    "static/css/main.a8eb1b11.css",
+    "static/js/main.52e3edba.js"
   ]
 }
