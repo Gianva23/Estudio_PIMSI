@@ -1,10 +1,10 @@
 .stars {
     display: flex;
-    gap: 0.462vw;
+    gap: 5px;
 }
 
 .star {
-    font-size: 2.31vw;
+    font-size: 25px;
     color: #ccc;
     transition: color 0.2s;
 }
@@ -15,10 +15,10 @@
 
 @media (max-width: 1080px){
     .stars {
-        gap: 1.85vw;
+        gap: 2vw;
     }
 
     .star {
-        font-size: 3.7vw;
+        font-size: 5vw;
     }
 }

@@ -108,7 +108,7 @@ const handleTouchEnd = (e) => {
       setStart(currentRev);
     }
   }, [currentRev, isMobile]);
-  
+
   return (
     <div className="review-container">
       <div className="review-header">
@@ -140,7 +140,7 @@ const handleTouchEnd = (e) => {
                   <div className="card-info">
                     <Stars rating={review.rating} />
                   </div>
-                  <ReviewText text={review.text} limit={300} />
+                  <ReviewText text={review.text} limit={isMobile ? 200 : 300} />
                   <div className="card-footer">
                     <a
                       href="https://www.google.com/maps/place/Estudio+PIMSI+%7C+Fidalgo+%26+Boeri/@-34.5112902,-58.4910748,16.25z/data=!4m16!1m9!3m8!1s0x95bcb13e659b6fa3:0x3dc3081b013f0259!2sEstudio+PIMSI+%7C+Fidalgo+%26+Boeri!8m2!3d-34.510941!4d-58.490328!9m1!1b1!16s%2Fg%2F11b7jxqj81!3m5!1s0x95bcb13e659b6fa3:0x3dc3081b013f0259!8m2!3d-34.510941!4d-58.490328!16s%2Fg%2F11b7jxqj81?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D"

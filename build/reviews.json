@@ -1,0 +1,76 @@
+{
+    "reviews": [
+        {
+            "author_name" : "Mario Gijón",
+            "author_url" : "a",
+            "language" : "es",
+            "original_language" : "es",
+            "profile_photo_url" : "https://fastly.picsum.photos/id/659/200/300.jpg?hmac=cmMJe403Rt0WMoriAFlgDaHI4FkwevCOXFyhnelzolY",
+            "rating" : 5,
+            "relative_time_description" : "Hace 2 años",
+            "text" : "Impresionante campus el que tiene Google en Mountain View. Las estatuas de Android ya no están juntas, ahora están repartidas por todo el campus. Ha sido muy divertido poder coger una bicicleta y pasear por todo el recinto, buscando las estatuas y haciendo fotos con todas ellas. Eso sí, es mejor ir un Sábado cuando no hay nadie trabajando y así no se molesta a nadie. En un día laborable no se debería poder montar en bicicleta si no eres un empleado. Mi favorita es KitKat, y la tuya?",
+            "time" : 1688386990,
+            "translated" : false
+        },
+        {
+            "author_name" : "Ellie",
+            "author_url" : "a",
+            "language" : "es",
+            "original_language" : "es",
+            "profile_photo_url" : "https://fastly.picsum.photos/id/396/200/300.jpg?hmac=EggjXXQZSnTN-aT9Iv-3k0S4sU2U5XlJfPwRVYafOSQ",
+            "rating" : 2,
+            "relative_time_description" : "Hace 5 años",
+            "text" : "Solo podrás ver los edificios y el campus por fuera, pero merece la pena sentirse por un día como un Noogle. Para mí fue toda una experiencia.\nAprovecha para aparcar en la calle Salado Drive y coge una de las coloridas bicicletas para recorrerte el campus.",
+            "time" : 1572193188,
+            "translated" : false
+        },
+        {
+            "author_name" : "Andrés Tirado",
+            "author_url" : "a",
+            "language" : "es",
+            "original_language" : "es",
+            "profile_photo_url" : "https://fastly.picsum.photos/id/981/200/300.jpg?hmac=H3LDLzNJiLGQYdx_Q7g_Us-x8VxR-aK5TglLyGlQHDk",
+            "rating" : 3,
+            "relative_time_description" : "Hace 5 años",
+            "text" : "Excelente sitio para visitar, caminar y tomarse fotos, el lugar natural de varios de nuestros encuentros de los Google Top Contritutors en los diferentes Summit (Google Product Experts Summit desde el 2018) y donde hemos ido a las conferencias, sesiones privadas y talleres de productos (Blogger y Webmasters) que allí tenemos aquellos que hacemos parte de este programa de Google y donde por supuesto, nos hemos tomado infinidad de fotos en los diferentes lugares que hemos recorrido de sus instalaciones, en mi caso, desde el 2013 que he tenido la oportunidad de asistir y con excelente recuerdos en un lugar dónde solo hay respeto, cordialidad y tranquilidad.",
+            "time" : 1576403955,
+            "translated" : false
+        },
+        {
+            "author_name" : "Jota ypunto",
+            "author_url" : "a",
+            "language" : "es",
+            "original_language" : "es",
+            "profile_photo_url" : "https://fastly.picsum.photos/id/560/200/300.jpg?hmac=Qw6Gj4Q7nEunQocIfP9eSZ12CmRwQjYRMHvKIsnf08Y",
+            "rating" : 5,
+            "relative_time_description" : "Hace 7 años",
+            "text" : "El impresionante campus de google, un súper lugar donde trabajar y visitar.\n\nTiene bicicletas como para recorrer el campus.\n\nSi no tienes un host que te enseñe el campus la verdad es que pierde un poco.",
+            "time" : 1531360892,
+            "translated" : false
+        },
+        {
+            "author_name" : "Joaquín Benítez de Soto",
+            "author_url" : "a",
+            "language" : "es",
+            "original_language" : "es",
+            "profile_photo_url" : "https://fastly.picsum.photos/id/845/200/300.jpg?grayscale&hmac=iRIHMmlHTFqEin611no3BVIZG_RvxT-CziC7cJRREMY",
+            "rating" : 1,
+            "relative_time_description" : "Hace 7 años",
+            "text" : "Si te gusta la tecnología y tienes ocasión de pasar cerca, es un desvío obligado. En realidad ni hay visita, ni nadie te cuenta nada, pero estar en el centro de las oficinas de Google es una pasada.",
+            "time" : 1532807142,
+            "translated" : false
+        },
+        {
+            "author_name" : "Joaquín Benítez de Soto",
+            "author_url" : "a",
+            "language" : "es",
+            "original_language" : "es",
+            "profile_photo_url" : "https://fastly.picsum.photos/id/866/200/300.jpg?hmac=rcadCENKh4rD6MAp6V_ma-AyWv641M4iiOpe1RyFHeI",
+            "rating" : 1,
+            "relative_time_description" : "Hace 7 años",
+            "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum rutrum vel nibh in pellentesque. Nullam maximus tempor molestie. Vestibulum egestas libero in urna auctor, eget dapibus leo laoreet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Proin bibendum a justo vitae maximus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a magna posuere, blandit ante eget, sagittis tortor. Duis ut mauris est. Praesent volutpat, orci sed ullamcorper vestibulum, sapien felis tempor turpis, nec scelerisque elit risus posuere velit. Vestibulum sed quam ultrices, porttitor turpis sed, auctor ante. Curabitur eu facilisis elit, non tincidunt elit. Aliquam dignissim massa in porta aliquet.Mauris massa ligula, commodo ut felis nec, laoreet congue quam. Suspendisse luctus nibh sit amet hendrerit sodales. Aenean molestie lectus massa, ultricies dignissim risus tempor at. Nam pharetra tincidunt lectus ut hendrerit. Nunc non nisi eget dui pellentesque faucibus. Phasellus dapibus magna sit amet nulla sodales, ac faucibus justo ornare. Nullam ullamcorper commodo aliquet.",
+            "time" : 1532807142,
+            "translated" : false
+        }
+    ]
+}

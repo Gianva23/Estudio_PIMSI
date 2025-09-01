@@ -18,14 +18,14 @@
 
 @media (max-width: 1080px){
   .review-text{
-    font-size: 2.22vw;  /* 16px */
-    line-height: 2.5vw;    /* 24px */
+    font-size: 4vw;  /* 16px */
+    line-height: 4vw;    /* 24px */
     padding: 0;
   }
 
   .see-more {
     color: #0077cc;
     cursor: pointer;
-    font-size: 2.22vw;
+    font-size: 4vw;
   }
 }
