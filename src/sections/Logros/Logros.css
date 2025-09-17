@@ -99,58 +99,6 @@
 }
 @media (max-width: 1080px){
     .main-container{
-        height: 444px;
-    }
-    .logros-container{
-        width: 87%;
-        height: 231px;
-    }
-    .l1{
-        font-size: 2.25rem;    /* 36px */
-        line-height: 2.375rem;   /* 38px */
-        width: 170px;
-    }
-    .n2{
-        line-height: 1.625rem;   /* 26px */
-        width: 10.625rem;   /* 170px */
-    }
-}
-@media (max-width: 800px){
-    .main-container{
-        height: 340px;
-    }
-    .logros-container{
-        width: 92%;
-        height: 177px;
-    }
-    .cu1{
-        width: 24%;
-    }
-    .cu2{
-        width: 22%;
-    }
-    .cu3{
-        width: 24%;
-    }
-    .cu4{
-        width: 30%;
-    }
-    .l1{
-        font-size: 1.625rem;    /* 26px */
-        line-height: 1.625rem;    /* 26px */
-        width: 120px;
-    }
-    .n1{
-        font-size: 2.25rem;    /* 36px */
-    }
-    .n2{
-        font-size: 1.25rem;    /* 20px */
-        line-height: 1.25rem;    /* 20px */
-        width: 160px;   /* 170px */
-    }
-}
-@media (max-width: 700px){
-    .main-container{
         height: 40vw;
     }
     .logros-container{
