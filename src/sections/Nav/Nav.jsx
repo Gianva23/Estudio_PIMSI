@@ -6,7 +6,7 @@ import { ReactComponent as LogoMail } from '../../assets/images/Vector_Mail.svg'
 import { PiInstagramLogoFill } from "react-icons/pi";
 import { ReactComponent as LogoMenu } from '../../assets/images/icons_menu.svg';
 
-function Nav({ HomeRef, aboutRef, ServicesRef, footerRef }) {
+function Nav({ HomeRef, aboutRef, ServicesRef, ReviewsRef, footerRef }) {
     const [menuOpen, setMenuOpen] = useState(false);
     const menuRef = useRef(null);
     const buttonRef = useRef(null);
@@ -65,9 +65,9 @@ function Nav({ HomeRef, aboutRef, ServicesRef, footerRef }) {
                 </div>
                 <ul className="nav_medio desktop">
                     <li className="nav_componentes" onClick={() => handleNavClick(HomeRef)}>Inicio</li>
-                    <li className="nav_componentes"onClick={() => handleNavClick(aboutRef)}>Nosotros</li>
+                    <li className="nav_componentes" onClick={() => handleNavClick(aboutRef)}>Nosotros</li>
                     <li className="nav_componentes" onClick={() => handleNavClick(ServicesRef)}>Servicios</li>
-                    <li className="nav_componentes">Blog</li>
+                    <li className="nav_componentes" onClick={() => handleNavClick(ReviewsRef)}>Blog</li>
                     <li className="nav_componentes" onClick={() => handleNavClick(footerRef)}>Contacto</li>
                 </ul>
                 <div className='nav_iconos'>
@@ -96,9 +96,9 @@ function Nav({ HomeRef, aboutRef, ServicesRef, footerRef }) {
                     onMouseLeave={() => setMenuOpen(false)}
                 >
                     <li className="nav_componentes mobile" onClick={() => handleNavClick(HomeRef)}>HOME</li>
-                    <li className="nav_componentes mobile"onClick={() => handleNavClick(aboutRef)}>SOBRE NOSOTROS</li>
+                    <li className="nav_componentes mobile" onClick={() => handleNavClick(aboutRef)}>SOBRE NOSOTROS</li>
                     <li className="nav_componentes mobile" onClick={() => handleNavClick(ServicesRef)}>SERVICIOS</li>
-                    <li className="nav_componentes mobile">TESTIMONIOS Y EXPERIENCIAS</li>
+                    <li className="nav_componentes mobile" onClick={() => handleNavClick(ReviewsRef)}>TESTIMONIOS Y EXPERIENCIAS</li>
                     <li className="nav_componentes mobile" onClick={() => handleNavClick(footerRef)}>CONTACTO</li>
                 </ul>
             </nav>
