@@ -53,11 +53,11 @@ function Footer() {
                             
                             <div className='contact'>
                                 <a className='contact-detail'
-                                    href="mailto:info@xxx.gmail.com"
+                                    href="mailto:info@estudiovicentelopez.com.ar"
                                     target="_blank" 
                                     rel="noopener noreferrer"
                                     ><LogoMail/>
-                                    <p>info@xxx.gmail.com</p>
+                                    <p className='direct-mail'>info@estudiovicentelopez.com.ar</p>
                                 </a>
                             </div>
                         </div>

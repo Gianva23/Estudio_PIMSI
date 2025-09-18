@@ -34,7 +34,7 @@
 .flex-footer-bottom{
     display: flex;
     align-items: flex-start;
-    gap: 8.9%;
+    gap: 8%;
     font-family: 'Montserrat-Medium';
     padding: 0 5.5% 5% 5.5%;
 }
@@ -43,7 +43,7 @@
     flex-direction: column;
     gap: 20px;
     color: #EAEAEA;
-    width: 275px;
+    width: 350px;
 }
 .columna1, .columna2 {
     display: flex;
@@ -69,21 +69,73 @@
 .maps-detail{
     line-height: 1.125rem;  /* 24px */
 }
-@media (max-width: 1080px) {
-    .container-footer{
-        margin: 0;
+/*
+    @media (max-width: 1080px) {
+        .container-footer{
+            margin: 0;
+        }
+        .flex-footer-top{
+            flex-direction: column;   
+            padding: 102px 0 73px 8%;
+        }
+        .contact-title{
+            font-size: 4.6875rem;
+        }
+        .flex-footer-bottom {
+            flex-direction: column;
+            padding: 0 8% 102px 8%;
+            gap: 98px;
+        }
+        .footer-contact {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10% 
+        }
+        .columna1 > div {
+            flex: 1;
+        }
+        .columna2 > div {
+            flex: 1;
+        }
+        .columna1{
+            gap: 40px;
+            min-width: 450px;
+        }
+        .columna2{
+            gap: 40px;
+            min-width: 350px;
+        }
+        .contact-detail p{
+            font-size: 1.875rem;
+            line-height: 2.125rem;
+        }
+        .contact-detail svg{
+            width: 30px;
+            height: 30px;
+            padding: 1px;
+        }
+        .direct-mail{
+            font-size: 1.113rem !important;
+        }
     }
-    .flex-footer-top{
-        flex-direction: column;   
-        padding: 102px 0 73px 8%;
+*/
+/*----- Proporciones de 1080px -----*/
+@media (max-width: 1080px){
+    .footer{
+        min-height: 57.87vw;
+}
+    .flex-footer-top{  
+        padding: 9.44vw 0 6.75vw 7.4vw;
+        flex-direction: column;  
     }
     .contact-title{
-        font-size: 4.6875rem;  /* 75px */
+        font-size: 6.94vw;  /* 75px */
+        line-height: 6.94vw;  /* 74px */
     }
     .flex-footer-bottom {
         flex-direction: column;
-        padding: 0 8% 102px 8%;
-        gap: 98px;
+        padding: 0 7.4% 9.44vw ;
+        gap: 9.07vw;
     }
     .footer-contact {
         display: grid;
@@ -95,40 +147,6 @@
     }
     .columna2 > div {
         flex: 1;
-    }
-    .columna1{
-        gap: 40px;
-        min-width: 450px;
-    }
-    .columna2{
-        gap: 40px;
-        min-width: 350px;
-    }
-    .contact-detail p{
-        font-size: 1.875rem;  /* 30px */
-        line-height: 2.125rem;  /* 34px */
-    }
-    .contact-detail svg{
-        width: 30px;
-        height: 30px;
-        padding: 1px;
-    }
-}
-/*----- Proporciones de 1080px -----*/
-@media (max-width: 900px){
-    .footer{
-        min-height: 57.87vw;
-}
-    .flex-footer-top{  
-        padding: 9.44vw 0 6.75vw 7.4vw;
-    }
-    .contact-title{
-        font-size: 6.94vw;  /* 75px */
-        line-height: 6.94vw;  /* 74px */
-    }
-    .flex-footer-bottom {
-        padding: 0 7.4% 9.44vw ;
-        gap: 9.07vw;
     }
     .columna1{
         gap: 3.7vw;
@@ -150,6 +168,9 @@
     .contact-detail{
         gap: 1.38vw;
         min-width: 25.09vw;
+    }
+    .direct-mail{
+        font-size: 1.65vw !important;  /* 17.82px */
     }
 }
 a:visited,

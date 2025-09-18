@@ -78,7 +78,7 @@ function Nav({ HomeRef, aboutRef, ServicesRef, ReviewsRef, footerRef }) {
                         ><LogoWhatsapp className="nav_Logo_Whatsapp"/>
                     </a>
                     <a
-                        href="mailto:info@xxx.gmail.com"
+                        href="mailto:info@estudiovicentelopez.com.ar"
                         target="_blank" 
                         rel="noopener noreferrer"
                         ><LogoMail className="nav_Logo_Mail"/>
