@@ -35,14 +35,6 @@ function Footer() {
                         <div className='columna2'>
                             <div className='contact'>
                                 <a className='contact-detail'
-                                    href="tel:5491147963477"
-                                    ><LogoNumCelular/>
-                                    <p>4796 3477</p>
-                                </a>
-                            </div>
-                            
-                            <div className='contact'>
-                                <a className='contact-detail'
                                     href="https://wa.me/5491165363661" 
                                     target="_blank" 
                                     rel="noopener noreferrer"

@@ -54,6 +54,7 @@
     display: flex;
     gap: 16px;
     margin: 0px;
+    width: fit-content;
 }
 .contact-detail{
     display: flex;
@@ -123,7 +124,7 @@
 @media (max-width: 1080px){
     .footer{
         min-height: 57.87vw;
-}
+    }
     .flex-footer-top{  
         padding: 9.44vw 0 6.75vw 7.4vw;
         flex-direction: column;  
@@ -140,7 +141,8 @@
     .footer-contact {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 10% 
+        gap: 3.2vw;
+        width: auto;
     }
     .columna1 > div {
         flex: 1;
@@ -150,11 +152,9 @@
     }
     .columna1{
         gap: 3.7vw;
-        min-width: 41.66vw;
     }
     .columna2{
         gap: 3.7vw;
-        min-width: 32.4vw;
     }
     .contact-detail p{
         font-size: 2.77vw;  /* 30px */
@@ -170,7 +170,10 @@
         min-width: 25.09vw;
     }
     .direct-mail{
-        font-size: 1.65vw !important;  /* 17.82px */
+        font-size: 2.4vw !important;  /* 26px */
+    }
+    .maps-detail{
+        width: 36.3vw;
     }
 }
 a:visited,
