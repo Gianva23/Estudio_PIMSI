@@ -4,7 +4,8 @@ import Logo from '../../assets/images/Logotipo.svg';
 import { ReactComponent as LogoWhatsapp } from '../../assets/images/Vector_Whatsapp.svg';
 import { ReactComponent as LogoMail } from '../../assets/images/Vector_Mail.svg';
 import { PiInstagramLogoFill } from "react-icons/pi";
-import { ReactComponent as LogoMenu } from '../../assets/images/icons_menu.svg';
+import { ReactComponent as LogoMenuvacio } from '../../assets/images/icons_Menuvacio.svg';
+import { ReactComponent as LogoMenulleno } from '../../assets/images/icons-Menulleno.svg';
 
 function Nav({ HomeRef, aboutRef, ServicesRef, ReviewsRef, footerRef }) {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -57,7 +58,11 @@ function Nav({ HomeRef, aboutRef, ServicesRef, ReviewsRef, footerRef }) {
             <nav className='nav'>
                 <div className='nav_desplegable'>
                     <button ref={buttonRef} className="menu-toggle" onClick={ToggleMenu}>
-                        <LogoMenu className='Logo_Menu'/>
+                    {menuOpen ? (
+                        <LogoMenulleno className="Logo_Menu" />
+                    ) : (
+                        <LogoMenuvacio className="Logo_Menu" />
+                    )}
                     </button>
                 </div>
                 <div className='nav_logo'>

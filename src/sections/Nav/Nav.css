@@ -126,9 +126,6 @@
 .Logo_Menu{
     background-color: transparent;
     color: #030347;
-    border-radius: 15px;
-    padding: 10px;
-    border: 3px solid #030347;
 }
 @media (max-width: 1080px){
     .nav{
@@ -204,9 +201,6 @@
     .Logo_Menu{
         width: 5.55vw;
         height: 5.55vw;
-        padding: 0.92vw;
-        border: 0.27vw solid #030347;
-        border-radius: 1.38vw;
     }
 }
 
