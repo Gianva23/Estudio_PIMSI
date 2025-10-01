@@ -189,7 +189,7 @@
   }
   .card-inner{
     min-height: 50.83vw;
-    padding: 1.85vw 1.85vw 0 1.85vw;
+    padding: 4vw 4vw 0;
     border-radius: 2.31vw;
     box-shadow: 0 0.648vw 1.388vw rgba(0,0,0,0.15);
   }

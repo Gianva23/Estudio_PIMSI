@@ -135,7 +135,6 @@ const handleTouchEnd = (e) => {
                       <p className="review-name">{review.author_name}</p>
                       <p className="review-time">{epochToDate(review.time)}</p>
                     </div>
-                    <div className="Logo-Google"><LogoGoogle/></div>
                   </div>
                   <div className="card-info">
                     <Stars rating={review.rating} />

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Estudio_PIMSI/static/css/main.9b51e83e.css",
-    "main.js": "/Estudio_PIMSI/static/js/main.d07b09b7.js",
+    "main.css": "/Estudio_PIMSI/static/css/main.43cb9e8f.css",
+    "main.js": "/Estudio_PIMSI/static/js/main.edfde298.js",
     "static/media/imagen.jpg": "/Estudio_PIMSI/static/media/imagen.1ed40cba0cecdac417d6.jpg",
     "static/media/Group_10.png": "/Estudio_PIMSI/static/media/Group_10.6d102d86bc7cc7acb30f.png",
     "static/media/Group_11.png": "/Estudio_PIMSI/static/media/Group_11.f0ba9cb2e010a255d416.png",
@@ -30,11 +30,11 @@
     "static/media/icons_Menuvacio.svg": "/Estudio_PIMSI/static/media/icons_Menuvacio.1a7a12eb68ede6524482946111be2832.svg",
     "static/media/Vector_Arrow_L.svg": "/Estudio_PIMSI/static/media/Vector_Arrow_L.00a13cb62435a878b248a1f13c311daa.svg",
     "static/media/Vector_Arrow_R.svg": "/Estudio_PIMSI/static/media/Vector_Arrow_R.93b0fd368fccaac4fc2e5ca7f583e4aa.svg",
-    "main.9b51e83e.css.map": "/Estudio_PIMSI/static/css/main.9b51e83e.css.map",
-    "main.d07b09b7.js.map": "/Estudio_PIMSI/static/js/main.d07b09b7.js.map"
+    "main.43cb9e8f.css.map": "/Estudio_PIMSI/static/css/main.43cb9e8f.css.map",
+    "main.edfde298.js.map": "/Estudio_PIMSI/static/js/main.edfde298.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b51e83e.css",
-    "static/js/main.d07b09b7.js"
+    "static/css/main.43cb9e8f.css",
+    "static/js/main.edfde298.js"
   ]
 }
