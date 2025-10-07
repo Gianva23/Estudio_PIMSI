@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Estudio_PIMSI/static/css/main.43cb9e8f.css",
-    "main.js": "/Estudio_PIMSI/static/js/main.edfde298.js",
+    "main.css": "/Estudio_PIMSI/static/css/main.266cc291.css",
+    "main.js": "/Estudio_PIMSI/static/js/main.968dd7f2.js",
     "static/media/imagen.jpg": "/Estudio_PIMSI/static/media/imagen.1ed40cba0cecdac417d6.jpg",
     "static/media/Group_10.png": "/Estudio_PIMSI/static/media/Group_10.6d102d86bc7cc7acb30f.png",
     "static/media/Group_11.png": "/Estudio_PIMSI/static/media/Group_11.f0ba9cb2e010a255d416.png",
@@ -20,7 +20,6 @@
     "static/media/Logotipo.svg": "/Estudio_PIMSI/static/media/Logotipo.070704e73d15938857738f0d6403cf04.svg",
     "static/media/Vector_Whatsapp.svg": "/Estudio_PIMSI/static/media/Vector_Whatsapp.03adcbe7a6fd0c115b40f1ca23e6e4ab.svg",
     "static/media/Vector_Reloj.svg": "/Estudio_PIMSI/static/media/Vector_Reloj.471b9cab7823a1dbc84c6ac1e0756d94.svg",
-    "static/media/Vector_Google.svg": "/Estudio_PIMSI/static/media/Vector_Google.94b3be81097613cbfed5043a97d700f7.svg",
     "static/media/Vector_Núm_Celular.svg": "/Estudio_PIMSI/static/media/Vector_Núm_Celular.43d353663b6febf14bf8b985f5a80ca4.svg",
     "static/media/Vector_Ubicación.svg": "/Estudio_PIMSI/static/media/Vector_Ubicación.757a27c45e61c721e6668baade8d4860.svg",
     "static/media/icons_flip.svg": "/Estudio_PIMSI/static/media/icons_flip.86a3e7ba36baec2ec08c618fdb4545a3.svg",
@@ -30,11 +29,11 @@
     "static/media/icons_Menuvacio.svg": "/Estudio_PIMSI/static/media/icons_Menuvacio.1a7a12eb68ede6524482946111be2832.svg",
     "static/media/Vector_Arrow_L.svg": "/Estudio_PIMSI/static/media/Vector_Arrow_L.00a13cb62435a878b248a1f13c311daa.svg",
     "static/media/Vector_Arrow_R.svg": "/Estudio_PIMSI/static/media/Vector_Arrow_R.93b0fd368fccaac4fc2e5ca7f583e4aa.svg",
-    "main.43cb9e8f.css.map": "/Estudio_PIMSI/static/css/main.43cb9e8f.css.map",
-    "main.edfde298.js.map": "/Estudio_PIMSI/static/js/main.edfde298.js.map"
+    "main.266cc291.css.map": "/Estudio_PIMSI/static/css/main.266cc291.css.map",
+    "main.968dd7f2.js.map": "/Estudio_PIMSI/static/js/main.968dd7f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.43cb9e8f.css",
-    "static/js/main.edfde298.js"
+    "static/css/main.266cc291.css",
+    "static/js/main.968dd7f2.js"
   ]
 }
