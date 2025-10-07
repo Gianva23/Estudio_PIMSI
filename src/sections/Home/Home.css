@@ -43,7 +43,7 @@
     gap: 13px;
     z-index: 2;
 }
-.dot {
+.dot-home {
     width: 19px;
     height: 19px;
     border-radius: 50%;
@@ -53,7 +53,7 @@
     cursor: pointer;
     transition: opacity 1.5s;
 }
-.dot.active {
+.dot-home.active {
     background: #EAEAEA;
     opacity: 0.9;
 }
@@ -110,7 +110,7 @@
     .img-dots{
         gap: 20px;
     }
-    .dot {
+    .dot-home {
         width: 23px;
         height: 23px;
     }
@@ -149,7 +149,7 @@
     .img-dots{
         bottom: 6.48vw;
     }
-    .dot{
+    .dot-home{
         width: 19px;
         height: 19px;
     }

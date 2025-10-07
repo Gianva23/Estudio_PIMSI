@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from "react";
 import "./Reviews.css";
 import Stars from "../../components/Stars/Stars";
 import ReviewText from "../../components/ReviewText/ReviewText";
-import { ReactComponent as LogoGoogle } from '../../assets/images/Vector_Google.svg';
 import { ReactComponent as Vector_Arrow_L } from '../../assets/images/Vector_Arrow_L.svg';
 import { ReactComponent as Vector_Arrow_R } from '../../assets/images/Vector_Arrow_R.svg';
 

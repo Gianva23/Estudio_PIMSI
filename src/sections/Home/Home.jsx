@@ -56,7 +56,7 @@ function Home({ServicesRef}) {
                 {backgroundImages.map((_, i) => (
                     <button
                         key={i}
-                        className={`dot ${i === currentIndex ? "active" : ""}`}
+                        className={`dot-home ${i === currentIndex ? "active" : ""}`}
                         onClick={() => handleDotClick(i)}
                     ></button>
                 ))}
